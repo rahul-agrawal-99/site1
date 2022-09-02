@@ -1,5 +1,3 @@
-cd /home/ubuntu/site1/
-git pull 
 cd /home/ubuntu/site1/www/
 sudo npm install
 sudo npm run build
