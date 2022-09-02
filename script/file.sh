@@ -9,4 +9,13 @@ else
     echo "File not exists so good for US"
 fi
 sudo ln -s /home/ubuntu/site1/site1.conf /etc/nginx/sites-enabled/
-sudo systemctl reload nginx
+
+
+if sudo systemctl reload nginx
+then 
+        echo "Successful Reload" 
+else
+        echo "Reload failed so restarting"
+        sudo service nginx restart
+        sudo systemctl reload nginx
+fi
