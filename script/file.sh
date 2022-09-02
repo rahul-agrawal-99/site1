@@ -1,5 +1,5 @@
 cd ~/site1/
-git pull URL.git
+git pull 
 cd ~/site1/www/
 npm install
 npm run build
