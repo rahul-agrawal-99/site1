@@ -1,4 +1,4 @@
-cd /home/ubuntu/site1/www/
+cd /home/ubuntu/site1/www
 pwd
 npm install
 npm run build
